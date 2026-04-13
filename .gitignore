@@ -10,5 +10,6 @@ dist/
 device.yaml
 scheduler.log
 design.md
+conftest.py
 
 pytest-appium-scheduler-*/
