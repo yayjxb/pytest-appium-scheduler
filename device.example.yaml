@@ -1,0 +1,20 @@
+devices:
+  - name: emulator-5554
+    url: http://127.0.0.1:4723
+    caps:
+      platformName: Android
+      automationName: UiAutomator2
+      udid: emulator-5554
+      systemPort: 8201
+      appPackage: com.android.settings
+      appActivity: .Settings
+
+  - name: emulator-5556
+    url: http://127.0.0.1:4723
+    caps:
+      platformName: Android
+      automationName: UiAutomator2
+      udid: emulator-5556
+      systemPort: 8202
+      appPackage: com.android.settings
+      appActivity: .Settings

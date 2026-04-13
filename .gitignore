@@ -1,0 +1,14 @@
+.venv/
+.pytest_cache/
+.idea/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+device.yaml
+scheduler.log
+design.md
+
+pytest-appium-scheduler-*/
