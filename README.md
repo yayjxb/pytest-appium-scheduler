@@ -265,6 +265,12 @@ With `--appium-trace`:
 [pytest-appium-scheduler] action=device-acquire worker=gw0 target=huawei_p60 device=huawei_p60 details=nodeid=...
 ```
 
+## Notes
+
+- For Android parallel execution, use distinct `udid` and `systemPort`
+- if you provide your own `pytest_appium_create_driver`, the plugin still applies `pytest_appium_modify_caps` first
+- if a test does not use `driver` or `device`, it can run on idle xdist workers without occupying a device
+
 ## Development
 
 Create a local environment:
@@ -291,4 +297,3 @@ Build distributions:
 ## License
 
 MIT. See [LICENSE](./LICENSE).
-
