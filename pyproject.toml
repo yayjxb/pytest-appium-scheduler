@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pytest-appium-scheduler"
-version = "0.1.0"
+version = "0.1.1"
 description = "Pytest plugin for Appium device scheduling and driver lifecycle management."
 readme = "README.md"
 license = "MIT"
