@@ -195,7 +195,7 @@ Select one device only:
 ```bash
 pytest tests \
   --appium-config=device.yaml \
-  --appium-device=huawei_p60
+  --appium-device=emulator-5556
 ```
 
 Reuse one driver per device session:
@@ -256,13 +256,13 @@ def pytest_appium_create_driver(device):
 With `--appium-debug`:
 
 ```text
-[appium] gw0    target=huawei_p60        device=huawei_p60        PASSED  tests/test_real_device.py::test_open_app  session-123
+[appium] gw0    target=emulator-5556        device=emulator-5556        PASSED  tests/test_real_device.py::test_open_app  session-123
 ```
 
 With `--appium-trace`:
 
 ```text
-[pytest-appium-scheduler] action=device-acquire worker=gw0 target=huawei_p60 device=huawei_p60 details=nodeid=...
+[pytest-appium-scheduler] action=device-acquire worker=gw0 target=emulator-5556 device=emulator-5556 details=nodeid=...
 ```
 
 ## Notes
